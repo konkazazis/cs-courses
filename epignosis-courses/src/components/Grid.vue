@@ -29,7 +29,7 @@ export default {
         <p className="text-3xl font-bold underline">Description: {{ course.description }}</p>
         <p>Learners Enrolled: {{ course.enrolledLearners }}</p>
         <p>Average Rating: {{ course.averageRating }}/5</p>
-        <button class="learn-more-button">Learn More</button>
+        <button class="learn-more-button transform motion-safe:hover:scale-110">Learn More</button>
       </div>
     </div>
   </div>
@@ -37,9 +37,6 @@ export default {
 
 <style scoped>
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 #course-container {
   display: grid;
   grid-template-columns: repeat(3, 2fr);
