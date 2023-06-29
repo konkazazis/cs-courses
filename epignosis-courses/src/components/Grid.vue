@@ -24,15 +24,19 @@ export default {
    <div>
     <div id="course-container">
       <div v-for="course in courses" :key="course.title" class="course-card">
+        <img :src="course.image" :alt="course.title" />
         <h3>{{ course.title }}</h3>
-        <p>{{ course.description }}</p>
+        <p>Description: {{ course.description }}</p>
+        <p>Learners Enrolled: {{ course.enrolledLearners }}</p>
+        <p>Average Rating: {{ course.averageRating }}/5</p>
+        <button class="learn-more-button">Learn More</button>
       </div>
     </div>
   </div>
 </template>
 
 <style scoped>
-  .course-grid {
+#course-container {
   display: grid;
   grid-template-columns: repeat(3, 2fr);
   grid-gap: 20px;
@@ -75,6 +79,15 @@ export default {
 
 .course-card a:hover {
   background-color: #555;
+}
+
+.learn-more-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 </style>
 

@@ -4,9 +4,8 @@ import Grid from './components/Grid.vue'
 </script>
 
 <template>
-  <header>
-    <Header/>
-  </header>
+  
+  <Header/>
 
   <Grid/>
   
@@ -27,7 +26,5 @@ header {
   .logo {
     margin: 0 2rem 0 0;
   }
-
-
 }
 </style>
