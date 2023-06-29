@@ -26,7 +26,7 @@ export default {
       <div v-for="course in courses" :key="course.title" class="course-card">
         <img :src="course.image" :alt="course.title" />
         <h3>{{ course.title }}</h3>
-        <p>Description: {{ course.description }}</p>
+        <p className="text-3xl font-bold underline">Description: {{ course.description }}</p>
         <p>Learners Enrolled: {{ course.enrolledLearners }}</p>
         <p>Average Rating: {{ course.averageRating }}/5</p>
         <button class="learn-more-button">Learn More</button>
@@ -36,6 +36,10 @@ export default {
 </template>
 
 <style scoped>
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 #course-container {
   display: grid;
   grid-template-columns: repeat(3, 2fr);
