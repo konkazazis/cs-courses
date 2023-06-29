@@ -5,7 +5,6 @@ import ToolingIcon from './icons/IconTooling.vue'
 import EcosystemIcon from './icons/IconEcosystem.vue'
 import CommunityIcon from './icons/IconCommunity.vue'
 import SupportIcon from './icons/IconSupport.vue'
-
 import jsonData from './dummy_courses.json';
 
 export default {
@@ -21,18 +20,16 @@ export default {
 </script>
 
 <template>
-   <div>
-    <div id="course-container">
-      <div v-for="course in courses" :key="course.title" class="course-card">
+    <div id="course-container" >
+      <div v-for="course in courses" :key="course.title" class="course-card shadow-xl">
         <img :src="course.image" :alt="course.title" />
-        <h3>{{ course.title }}</h3>
+        <h3 className="text-center">{{ course.title }}</h3>
         <p className="text-3xl font-bold underline">Description: {{ course.description }}</p>
         <p>Learners Enrolled: {{ course.enrolledLearners }}</p>
         <p>Average Rating: {{ course.averageRating }}/5</p>
-        <button class="learn-more-button transform motion-safe:hover:scale-110">Learn More</button>
+        <button className="learn-more-button bg-gradient-to-r from-blue-400 to-indigo-100 hover:scale-110 cursor-pointer">Learn More</button>
       </div>
     </div>
-  </div>
 </template>
 
 <style scoped>
@@ -83,12 +80,10 @@ export default {
 }
 
 .learn-more-button {
-  background-color: #4caf50;
   color: white;
   padding: 8px 16px;
   border: none;
   border-radius: 4px;
-  cursor: pointer;
 }
 </style>
 

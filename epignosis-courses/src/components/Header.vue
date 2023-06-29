@@ -3,10 +3,10 @@
 <template>
   <header>
 
-    <h1>Epignosis-Courses</h1>
+    <h1 class="text-blue-600">Epignosis-Courses</h1>
 
     <div class="search-box">
-      <button class="btn-search"><img src = "./icons/search-button-svgrepo-com.svg"/></button>
+      <button class="btn-search text-blue-600"><img src = "./icons/search-button-svgrepo-com.svg"/></button>
       <input type="text" class="input-search" placeholder="Type to Search...">
     </div>
 
@@ -45,7 +45,7 @@ search-box {
   outline: none;
   border-radius: 25px;
   transition: all .5s ease-in-out;
-  background-color: #22a6b3;
+  background-color: aliceblue;
   padding-right: 40px;
   color:black;
 }
@@ -88,7 +88,6 @@ search-box {
 h1 {
   font-weight: 500;
   font-size: 2.6rem;
-  color: #22a6b3;
 }
 
 
