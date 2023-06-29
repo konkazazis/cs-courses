@@ -1,6 +1,6 @@
 <script setup>
 import Header from './components/Header.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import Grid from './components/Grid.vue'
 </script>
 
 <template>
@@ -8,6 +8,7 @@ import TheWelcome from './components/TheWelcome.vue'
     <Header/>
   </header>
 
+  <Grid/>
   
 </template>
 

@@ -6,7 +6,7 @@
     <h1>Epignosis-Courses</h1>
 
     <div class="search-box">
-      <button class="btn-search"><img src = "./icons/search-button-svgrepo-com.svg" alt="My Happy SVG"/></button>
+      <button class="btn-search"><img src = "./icons/search-button-svgrepo-com.svg"/></button>
       <input type="text" class="input-search" placeholder="Type to Search...">
     </div>
 
@@ -27,8 +27,8 @@ search-box {
 
 .search-box img {
   width: 25px;
+  padding-top: 5px;
   height: 35px;
-  justify-content: center;
 }
 .search-box{
   width: fit-content;
@@ -81,7 +81,7 @@ search-box {
   width: 300px;
   border-radius: 0px;
   background-color: transparent;
-  border-bottom:1px solid rgba(255,255,255,.5);
+  border-bottom:1px solid black;
   transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
 }
 
