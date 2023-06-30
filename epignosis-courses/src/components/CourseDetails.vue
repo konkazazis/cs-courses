@@ -25,9 +25,9 @@ export default {
   <div class="flex justify-center items-center mt-50">
     <div class="course-card shadow-xl">
             <template v-if="course">
-              <div class="flex justify-between">
+              <div class="course-details flex justify-between">
                 <img :src="course.image" :alt="course.title" />
-                <div class=" ml-20">
+                <div id="course-info">
                   <h3 class="mb-4 text-gray-700 text-lg text-center">{{ course.title }}</h3>
                   <p className="text-lg mb-5 font-bold text-gray-700">Description: {{ course.description }}</p>
                   <p class="mb-5 text-gray-700 text-base">Learners Enrolled: {{ course.enrolledLearners }}</p>
@@ -58,6 +58,9 @@ export default {
   border-radius: 8px;
   margin-bottom: 10px;
 }
+#course-info {
+  margin-left: 20px;
+}
 
 @media (max-width: 768px) {
   .course-details {
@@ -65,12 +68,14 @@ export default {
     max-width: 300px;
     display:inline-block;
     background-color: #f0f0f0;
-    
     border-radius: 8px;
   }
+  #course-info {
+  margin-left: 0px;
+ }
   .course-card img {
-  width: 100%;
-  height: auto;
+  width: 300px;
+  height: 300px;
   border-radius: 8px;
   margin-bottom: 10px;
   }

@@ -20,8 +20,8 @@ export default {
 </script>
 
 <template>
-  <div div class="flex justify-center items-center mt-30">
-    <div class="grid grid-cols-3 gap-20 max-w-1000">
+  <div  class="flex justify-center items-center mt-30">
+    <div class="course-container grid grid-cols-3 gap-20 max-w-1000">
       <div v-for="result in results" :key="result.id" class=" bg-gray-200 p-3 rounded-lg shadow-xl">
         <img class="w-full h-auto rounded-lg mb-10" :src="result.image" :alt="result.title" />
         <h3 class="text-base font-medium mb-10 text-gray-700 text-center">{{ result.title }}</h3>
@@ -39,10 +39,12 @@ export default {
 
 <style scoped>
 
+
 @media (max-width: 768px) {
-  #course-container {
+  .course-container {
+    display: grid;
     grid-template-columns: repeat(1, 2fr);
-    max-width: 300px;
+    max-width: 800px;
   }
 }
 </style>

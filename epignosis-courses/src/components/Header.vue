@@ -1,7 +1,7 @@
 
 
 <template>
-  <header  class="flex justify-between pr-0">
+  <header  class="flex justify-between pr-0 mb-20">
 
     <a href="/" class="w-2/12"><img  src="../assets/epignosis-removebg-preview.png" ></a>
     <div class="search-box">
