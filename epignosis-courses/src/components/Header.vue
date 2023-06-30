@@ -3,8 +3,8 @@
 <template>
   <header>
 
-    <h1 class="text-blue-600">Epignosis-Courses</h1>
-
+    <!-- <h1 class="text-blue-600">Epignosis-Courses</h1> -->
+    <img src="../assets/epignosis-removebg-preview.png" class="w-2/12">
     <div class="search-box">
       <button class="btn-search text-blue-600"><img src = "./icons/search-button-svgrepo-com.svg"/></button>
       <input type="text" class="input-search" placeholder="Type to Search...">

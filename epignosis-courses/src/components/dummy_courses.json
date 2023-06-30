@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Introduction to Web Development",
       "description": "Learn the basics of web development using HTML, CSS, and JavaScript.",
-      "image": "https://example.com/course1.jpg",
+      "image": "https://picsum.photos/1000",
       "enrolledLearners": 500,
       "averageRating": 4.2
     },
@@ -12,7 +12,7 @@
       "id": 2,
       "title": "JavaScript Fundamentals",
       "description": "Master the fundamentals of JavaScript programming language.",
-      "image": "https://example.com/course2.jpg",
+      "image": "https://picsum.photos/1000",
       "enrolledLearners": 750,
       "averageRating": 4.8
     },
@@ -20,7 +20,7 @@
       "id": 3,
       "title": "React for Beginners",
       "description": "Get started with React and build interactive user interfaces.",
-      "image": "https://example.com/course3.jpg",
+      "image": "https://picsum.photos/1000",
       "enrolledLearners": 350,
       "averageRating": 4.5
     },
@@ -28,7 +28,7 @@
       "id": 4,
       "title": "Advanced CSS Techniques",
       "description": "Explore advanced CSS techniques for styling modern web applications.",
-      "image": "https://example.com/course4.jpg",
+      "image": "https://picsum.photos/1000",
       "enrolledLearners": 200,
       "averageRating": 4.0
     },
@@ -36,7 +36,7 @@
       "id": 5,
       "title": "Vue.js Masterclass",
       "description": "Become an expert in Vue.js framework and build scalable applications.",
-      "image": "https://example.com/course5.jpg",
+      "image": "https://picsum.photos/1000",
       "enrolledLearners": 600,
       "averageRating": 4.6
     },
@@ -44,7 +44,7 @@
       "id": 6,
       "title": "Python for Data Science",
       "description": "Learn Python programming language for data analysis and visualization.",
-      "image": "https://example.com/course6.jpg",
+      "image": "https://picsum.photos/1000",
       "enrolledLearners": 450,
       "averageRating": 4.4
     },
@@ -52,7 +52,7 @@
       "id": 7,
       "title": "Angular Essentials",
       "description": "Discover the essential concepts of Angular framework for building modern web applications.",
-      "image": "https://example.com/course7.jpg",
+      "image": "https://picsum.photos/1000",
       "enrolledLearners": 300,
       "averageRating": 4.3
     },
@@ -60,7 +60,7 @@
       "id": 8,
       "title": "Full-Stack Web Development",
       "description": "Learn to build full-stack web applications using popular frameworks and technologies.",
-      "image": "https://example.com/course8.jpg",
+      "image": "https://picsum.photos/1000",
       "enrolledLearners": 900,
       "averageRating": 4.9
     },
@@ -68,7 +68,7 @@
       "id": 9,
       "title": "UI/UX Design Fundamentals",
       "description": "Explore the fundamentals of user interface and user experience design.",
-      "image": "https://example.com/course9.jpg",
+      "image": "https://picsum.photos/1000",
       "enrolledLearners": 400,
       "averageRating": 4.1
     },
@@ -76,7 +76,7 @@
       "id": 10,
       "title": "Java Programming Basics",
       "description": "Learn the basics of Java programming language for building applications.",
-      "image": "https://example.com/course10.jpg",
+      "image": "https://picsum.photos/1000",
       "enrolledLearners": 550,
       "averageRating": 4.7
     },
@@ -84,7 +84,7 @@
       "id": 11,
       "title": "Mobile App Development with Flutter",
       "description": "Build cross-platform mobile applications using the Flutter framework.",
-      "image": "https://example.com/course11.jpg",
+      "image": "https://picsum.photos/1000",
       "enrolledLearners": 700,
       "averageRating": 4.8
     },
@@ -92,7 +92,7 @@
       "id": 12,
       "title": "Data Structures and Algorithms in C++",
       "description": "Learn fundamental data structures and algorithms using the C++ programming language.",
-      "image": "https://example.com/course12.jpg",
+      "image": "https://picsum.photos/1000",
       "enrolledLearners": 250,
       "averageRating": 4.2
     },
@@ -100,7 +100,7 @@
       "id": 13,
       "title": "AWS Certified Solutions Architect - Associate",
       "description": "Prepare for the AWS Certified Solutions Architect - Associate certification exam.",
-      "image": "https://example.com/course13.jpg",
+      "image": "https://picsum.photos/1000",
       "enrolledLearners": 150,
       "averageRating": 4.3
     },
@@ -108,7 +108,7 @@
       "id": 14,
       "title": "Node.js and Express for Backend Development",
       "description": "Build scalable and efficient backend applications using Node.js and Express framework.",
-      "image": "https://example.com/course14.jpg",
+      "image": "https://picsum.photos/1000",
       "enrolledLearners": 350,
       "averageRating": 4.6
     },
@@ -116,7 +116,7 @@
       "id": 15,
       "title": "Machine Learning with Python",
       "description": "Learn machine learning concepts and techniques using the Python programming language.",
-      "image": "https://example.com/course15.jpg",
+      "image": "https://picsum.photos/1000",
       "enrolledLearners": 600,
       "averageRating": 4.5
     },
@@ -124,7 +124,7 @@
       "id": 16,
       "title": "HTML5 and CSS3 Fundamentals",
       "description": "Get started with HTML5 and CSS3 for building modern and responsive web pages.",
-      "image": "https://example.com/course16.jpg",
+      "image": "https://picsum.photos/1000",
       "enrolledLearners": 400,
       "averageRating": 4.0
     },
@@ -132,7 +132,7 @@
       "id": 17,
       "title": "Advanced JavaScript Concepts",
       "description": "Explore advanced JavaScript topics, including closures, prototypes, and asynchronous programming.",
-      "image": "https://example.com/course17.jpg",
+      "image": "https://picsum.photos/1000",
       "enrolledLearners": 350,
       "averageRating": 4.2
     },
@@ -140,7 +140,7 @@
       "id": 18,
       "title": "Python Web Scraping and Automation",
       "description": "Learn how to extract data from websites and automate tasks using Python.",
-      "image": "https://example.com/course18.jpg",
+      "image": "https://picsum.photos/1000",
       "enrolledLearners": 200,
       "averageRating": 4.3
     },
@@ -148,7 +148,7 @@
       "id": 19,
       "title": "Ruby on Rails for Web Development",
       "description": "Build web applications using the Ruby on Rails framework.",
-      "image": "https://example.com/course19.jpg",
+      "image": "https://picsum.photos/1000",
       "enrolledLearners": 300,
       "averageRating": 4.7
     },
@@ -156,7 +156,7 @@
       "id": 20,
       "title": "Docker for Beginners",
       "description": "Learn containerization and how to use Docker for application deployment.",
-      "image": "https://example.com/course20.jpg",
+      "image": "https://picsum.photos/1000",
       "enrolledLearners": 450,
       "averageRating": 4.5
     },
@@ -164,7 +164,7 @@
       "id": 21,
       "title": "Angular Reactive Forms",
       "description": "Master the usage of reactive forms in Angular for building complex forms.",
-      "image": "https://example.com/course21.jpg",
+      "image": "https://picsum.photos/1000",
       "enrolledLearners": 250,
       "averageRating": 4.4
     },
@@ -172,7 +172,7 @@
       "id": 22,
       "title": "iOS App Development with Swift",
       "description": "Learn to develop native iOS applications using the Swift programming language.",
-      "image": "https://example.com/course22.jpg",
+      "image": "https://picsum.photos/1000",
       "enrolledLearners": 600,
       "averageRating": 4.6
     },
@@ -180,7 +180,7 @@
       "id": 23,
       "title": "PHP and MySQL for Dynamic Web Development",
       "description": "Build dynamic web applications using PHP and MySQL database.",
-      "image": "https://example.com/course23.jpg",
+      "image": "https://picsum.photos/1000",
       "enrolledLearners": 400,
       "averageRating": 4.1
     },
@@ -188,7 +188,7 @@
       "id": 24,
       "title": "Data Visualization with D3.js",
       "description": "Learn to create interactive and dynamic data visualizations using D3.js library.",
-      "image": "https://example.com/course24.jpg",
+      "image": "https://picsum.photos/1000",
       "enrolledLearners": 550,
       "averageRating": 4.7
     },
@@ -196,7 +196,7 @@
       "id": 25,
       "title": "Ethical Hacking and Penetration Testing",
       "description": "Explore the fundamentals of ethical hacking and penetration testing techniques.",
-      "image": "https://example.com/course25.jpg",
+      "image": "https://picsum.photos/1000",
       "enrolledLearners": 700,
       "averageRating": 4.8
     },
@@ -204,7 +204,7 @@
       "id": 26,
       "title": "Java Enterprise Edition (Java EE) Development",
       "description": "Learn to build enterprise-level Java applications using Java EE framework.",
-      "image": "https://example.com/course26.jpg",
+      "image": "https://picsum.photos/1000",
       "enrolledLearners": 300,
       "averageRating": 4.3
     },
@@ -212,7 +212,7 @@
       "id": 27,
       "title": "Ruby Programming Fundamentals",
       "description": "Master the fundamentals of Ruby programming language.",
-      "image": "https://example.com/course27.jpg",
+      "image": "https://picsum.photos/1000",
       "enrolledLearners": 200,
       "averageRating": 4.0
     },
@@ -220,7 +220,7 @@
       "id": 28,
       "title": "GraphQL API Development with Node.js",
       "description": "Learn how to design and develop GraphQL APIs using Node.js.",
-      "image": "https://example.com/course28.jpg",
+      "image": "https://picsum.photos/1000",
       "enrolledLearners": 350,
       "averageRating": 4.5
     },
@@ -228,7 +228,7 @@
       "id": 29,
       "title": "Software Testing Fundamentals",
       "description": "Explore the fundamentals of software testing and quality assurance.",
-      "image": "https://example.com/course29.jpg",
+      "image": "https://picsum.photos/1000",
       "enrolledLearners": 450,
       "averageRating": 4.2
     },
@@ -236,7 +236,7 @@
       "id": 30,
       "title": "Android App Development with Kotlin",
       "description": "Learn to develop Android applications using the Kotlin programming language.",
-      "image": "https://example.com/course30.jpg",
+      "image": "https://picsum.photos/1000",
       "enrolledLearners": 600,
       "averageRating": 4.6
     }

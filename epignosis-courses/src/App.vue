@@ -1,30 +1,9 @@
 <script setup>
-import Header from './components/Header.vue'
-import Grid from './components/Grid.vue'
+import {RouterView} from 'vue-router'
 </script>
 
 <template>
-  
-  <Header/>
-
-  <Grid/>
-  
+  <RouterView/>
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
-}
 
-@media (min-width: 1024px) {
-  header {
-    
-    place-items: center;
-    
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-}
-</style>

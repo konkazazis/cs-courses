@@ -28,6 +28,7 @@ export default {
         <p>Learners Enrolled: {{ course.enrolledLearners }}</p>
         <p>Average Rating: {{ course.averageRating }}/5</p>
         <button className="learn-more-button bg-gradient-to-r from-blue-400 to-indigo-100 hover:scale-110 cursor-pointer">Learn More</button>
+        <a href="/about"></a>
       </div>
     </div>
 </template>
