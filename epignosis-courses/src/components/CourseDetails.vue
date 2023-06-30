@@ -22,16 +22,16 @@ export default {
 
   <Header/>
 
-  <div class="body">
+  <div class="flex justify-center items-center mt-50">
     <div class="course-card shadow-xl">
             <template v-if="course">
-              <div class="course-details">
+              <div class="flex justify-between">
                 <img :src="course.image" :alt="course.title" />
-                <div class="course-info">
-                  <h3 className="text-center">{{ course.title }}</h3>
-                  <p className="text-3xl font-bold">Description: {{ course.description }}</p>
-                  <p>Learners Enrolled: {{ course.enrolledLearners }}</p>
-                  <p>Average Rating: {{ course.averageRating }}/5</p>
+                <div class=" ml-20">
+                  <h3 class="mb-4 text-gray-700 text-lg text-center">{{ course.title }}</h3>
+                  <p className="text-lg mb-5 font-bold text-gray-700">Description: {{ course.description }}</p>
+                  <p class="mb-5 text-gray-700 text-base">Learners Enrolled: {{ course.enrolledLearners }}</p>
+                  <p class="mb-5 text-gray-700 text-base">Average Rating: {{ course.averageRating }}/5</p>
                 </div>
               </div>
                 
@@ -45,66 +45,18 @@ export default {
 
 <style scoped>
 
-.body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
-}
+
 .course-card {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background-color: #f0f0f0;
   padding: 20px;
   border-radius: 8px;
 }
-
 .course-card img {
   width: 200px;
   height: 200px;
   border-radius: 8px;
   margin-bottom: 10px;
-}
-
-.course-details {
-  display: flex;
-  justify-content: space-between; 
-}
-
-.course-info {
-  margin-left: 20px;
-}
-
-.course-card h3 {
-  margin-bottom: 10px;
-  color: #333;
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
-}
-
-.course-card p {
-  font-size: 1rem;
-  margin-bottom: 20px;
-  color: #333;
-}
-
-.course-card a {
-  display: inline-block;
-  background-color: #333;
-  color: #fff;
-  padding: 8px 16px;
-  text-decoration: none;
-  border-radius: 4px;
-}
-
-.course-card a:hover {
-  background-color: #555;
-}
-
-.learn-more-button {
-  color: white;
-  padding: 8px 16px;
-  border: none;
-  border-radius: 4px;
 }
 
 @media (max-width: 768px) {
@@ -126,13 +78,12 @@ export default {
   font-size: 18px;
   margin-bottom: 10px;
   color: #333;
-}
-
-.course-card p {
-  font-size: 14px;
-  margin-bottom: 20px;
-  color: #333;
-}
+  }
+  .course-card p {
+      font-size: 14px;
+      margin-bottom: 20px;
+      color: #333;
+  }
 }
 </style>
 
