@@ -20,7 +20,7 @@ export default {
 </script>
 
 <template>
-
+  <div div class="body">
     <div id="course-container" >
       <div v-for="result in results" :key="result.id" class="course-card shadow-xl">
         <img :src="result.image" :alt="result.title" />
@@ -33,19 +33,23 @@ export default {
         </router-link>
       </div>
     </div>
+  </div>
 
 </template>
 
 <style scoped>
-li {
-  color: #333;
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
 }
 
 #course-container {
   display: grid;
   grid-template-columns: repeat(3, 2fr);
   grid-gap: 20px;
-  margin-top: 50px;
+  max-width: 1000px;
 }
 
 .course-card {
@@ -73,15 +77,6 @@ li {
   color: #333;
 }
 
-.course-card a {
-  display: inline-block;
-  background-color: #333;
-  color: #fff;
-  padding: 8px 16px;
-  text-decoration: none;
-  border-radius: 4px;
-}
-
 .course-card a:hover {
   background-color: #555;
 }
@@ -91,6 +86,13 @@ li {
   padding: 8px 16px;
   border: none;
   border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  #course-container {
+    grid-template-columns: repeat(1, 2fr);
+    max-width: 300px;
+  }
 }
 </style>
 

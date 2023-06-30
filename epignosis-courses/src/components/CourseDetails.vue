@@ -52,7 +52,6 @@ export default {
   margin-top: 50px;
 }
 .course-card {
-  
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background-color: #f0f0f0;
   padding: 20px;
@@ -68,8 +67,7 @@ export default {
 
 .course-details {
   display: flex;
-  justify-content: space-between;
-  
+  justify-content: space-between; 
 }
 
 .course-info {
@@ -107,6 +105,34 @@ export default {
   padding: 8px 16px;
   border: none;
   border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .course-details {
+    grid-template-columns: repeat(1, 2fr);
+    max-width: 300px;
+    display:inline-block;
+    background-color: #f0f0f0;
+    
+    border-radius: 8px;
+  }
+  .course-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  }
+  .course-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.course-card p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #333;
+}
 }
 </style>
 

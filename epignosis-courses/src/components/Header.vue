@@ -6,7 +6,7 @@
     <a href="/" class="w-2/12"><img src="../assets/epignosis-removebg-preview.png" ></a>
     <div class="search-box">
       <button class="btn-search text-blue-600"><img src = "./icons/search-button-svgrepo-com.svg"/></button>
-      <input type="text" v-model="searchQuery" @input="handleInput" class="input-search" placeholder="Type to Search...">
+      <input type="text" v-model="searchQuery" @input="handleInput" class="input-search" placeholder="Search...">
     </div>
 
   </header>
@@ -110,6 +110,15 @@ search-box {
 h1 {
   font-weight: 500;
   font-size: 2.6rem;
+}
+
+@media (max-width: 768px) {
+  .btn-search:focus ~ .input-search {
+    max-width: 170px;
+  }
+  .input-search:focus {
+    max-width: 170px;
+  }
 }
 
 
