@@ -1,10 +1,4 @@
 <script>
-
-import DocumentationIcon from './icons/IconDocumentation.vue'
-import ToolingIcon from './icons/IconTooling.vue'
-import EcosystemIcon from './icons/IconEcosystem.vue'
-import CommunityIcon from './icons/IconCommunity.vue'
-import SupportIcon from './icons/IconSupport.vue'
 import jsonData from './dummy_courses.json';
 
 export default {
@@ -16,26 +10,36 @@ export default {
   mounted() {
     this.courses = jsonData.courses;
   },
+  props: {
+    results: {
+      type: Array,
+      default: () => [],
+    },
+  },
 };
 </script>
 
 <template>
+
     <div id="course-container" >
-      <div v-for="course in courses" :key="course.title" class="course-card shadow-xl">
-        <img :src="course.image" :alt="course.title" />
-        <h3 className="text-center">{{ course.title }}</h3>
-        <p className="text-3xl font-bold underline">Description: {{ course.description }}</p>
-        <p>Learners Enrolled: {{ course.enrolledLearners }}</p>
-        <p>Average Rating: {{ course.averageRating }}/5</p>
-        <router-link :to="{ name: 'CourseDetails', params: { id: course.id }}">
-          <a href="/courses" className="learn-more-button bg-gradient-to-r from-blue-400 to-indigo-100 hover:scale-110 cursor-pointer">Learn More</a>
+      <div v-for="result in results" :key="result.id" class="course-card shadow-xl">
+        <img :src="result.image" :alt="result.title" />
+        <h3 className="text-center">{{ result.title }}</h3>
+        <p className="text-3xl font-bold">{{ result.description }}</p>
+        <p>Learners Enrolled: {{ result.enrolledLearners }}</p>
+        <p>Average Rating: {{ result.averageRating }}/5</p>
+        <router-link className="learn-more-button bg-gradient-to-r from-blue-400 to-indigo-100 hover:scale-110 cursor-pointer" :to="{ name: 'CourseDetails', params: { id: result.id }}">
+          Learn More
         </router-link>
-        
       </div>
     </div>
+
 </template>
 
 <style scoped>
+li {
+  color: #333;
+}
 
 #course-container {
   display: grid;

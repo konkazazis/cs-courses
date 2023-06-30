@@ -3,16 +3,38 @@
 <template>
   <header>
 
-    <!-- <h1 class="text-blue-600">Epignosis-Courses</h1> -->
-    <img src="../assets/epignosis-removebg-preview.png" class="w-2/12">
+    <a href="/" class="w-2/12"><img src="../assets/epignosis-removebg-preview.png" ></a>
     <div class="search-box">
       <button class="btn-search text-blue-600"><img src = "./icons/search-button-svgrepo-com.svg"/></button>
-      <input type="text" class="input-search" placeholder="Type to Search...">
+      <input type="text" v-model="searchQuery" @input="handleInput" class="input-search" placeholder="Type to Search...">
     </div>
 
   </header>
   
 </template>
+
+
+<script>
+import jsonData from './dummy_courses.json';
+
+export default {
+  data() {
+    return {
+      searchQuery: '',
+      results: [],
+    };
+  },
+  mounted() {
+    this.results = jsonData;
+  },
+  methods: {
+    handleInput() {
+      this.$emit('search', this.searchQuery);
+    },
+  },
+};
+
+</script>
 
 <style scoped>
 
