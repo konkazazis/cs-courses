@@ -20,15 +20,15 @@ export default {
 </script>
 
 <template>
-  <div div class="body">
-    <div id="course-container" >
-      <div v-for="result in results" :key="result.id" class="course-card shadow-xl">
-        <img :src="result.image" :alt="result.title" />
-        <h3 className="text-center">{{ result.title }}</h3>
-        <p className="text-3xl font-bold">{{ result.description }}</p>
-        <p>Learners Enrolled: {{ result.enrolledLearners }}</p>
-        <p>Average Rating: {{ result.averageRating }}/5</p>
-        <router-link className="learn-more-button bg-gradient-to-r from-blue-400 to-indigo-100 hover:scale-110 cursor-pointer" :to="{ name: 'CourseDetails', params: { id: result.id }}">
+  <div div class="flex justify-center items-center mt-30">
+    <div class="grid grid-cols-3 gap-20 max-w-1000">
+      <div v-for="result in results" :key="result.id" class=" bg-gray-200 p-3 rounded-lg shadow-xl">
+        <img class="w-full h-auto rounded-lg mb-10" :src="result.image" :alt="result.title" />
+        <h3 class="text-base font-medium mb-10 text-gray-700 text-center">{{ result.title }}</h3>
+        <p class="text-sm mb-10 text-gray-700 font-bold">{{ result.description }}</p>
+        <p class="text-sm mb-5 text-gray-700">Learners Enrolled: {{ result.enrolledLearners }}</p>
+        <p class="text-sm mb-10 text-gray-700">Average Rating: {{ result.averageRating }}/5</p>
+        <router-link class="learn-more-button text-white px-8 py-2 border-none rounded-md bg-gradient-to-r from-blue-400 to-indigo-100 hover:scale-110 cursor-pointer" :to="{ name: 'CourseDetails', params: { id: result.id }}">
           Learn More
         </router-link>
       </div>
@@ -38,55 +38,6 @@ export default {
 </template>
 
 <style scoped>
-.body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 30px;
-}
-
-#course-container {
-  display: grid;
-  grid-template-columns: repeat(3, 2fr);
-  grid-gap: 20px;
-  max-width: 1000px;
-}
-
-.course-card {
-  background-color: #f0f0f0;
-  padding: 20px;
-  border-radius: 8px;
-}
-
-.course-card img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  margin-bottom: 10px;
-}
-
-.course-card h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
-  color: #333;
-}
-
-.course-card p {
-  font-size: 14px;
-  margin-bottom: 20px;
-  color: #333;
-}
-
-.course-card a:hover {
-  background-color: #555;
-}
-
-.learn-more-button {
-  color: white;
-  padding: 8px 16px;
-  border: none;
-  border-radius: 4px;
-}
 
 @media (max-width: 768px) {
   #course-container {
