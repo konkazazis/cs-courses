@@ -27,8 +27,10 @@ export default {
         <p className="text-3xl font-bold underline">Description: {{ course.description }}</p>
         <p>Learners Enrolled: {{ course.enrolledLearners }}</p>
         <p>Average Rating: {{ course.averageRating }}/5</p>
-        <button className="learn-more-button bg-gradient-to-r from-blue-400 to-indigo-100 hover:scale-110 cursor-pointer">Learn More</button>
-        <a href="/about"></a>
+        <router-link :to="{ name: 'CourseDetails', params: { id: course.id }}">
+          <a href="/courses" className="learn-more-button bg-gradient-to-r from-blue-400 to-indigo-100 hover:scale-110 cursor-pointer">Learn More</a>
+        </router-link>
+        
       </div>
     </div>
 </template>
