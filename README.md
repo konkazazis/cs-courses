@@ -1,4 +1,4 @@
-# epignosis
+# CS Courses
 Assuming you have node.js installed :
 1. Open terminal and navigate to "epignosis-courses"
 2. type: npm install
