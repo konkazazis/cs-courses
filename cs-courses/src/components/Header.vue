@@ -1,10 +1,10 @@
 
 
 <template>
+  
   <header  class="flex justify-between pr-0 mb-20">
-
-    <a href="/" class="w-2/12"><img  src="../assets/epignosis-removebg-preview.png" ></a>
-    <div class="search-box">
+    <h1 class="text-4xl font-bold text-black ">CS Courses</h1>
+    <div class="right-0 search-box">
       <button class="btn-search text-blue-600"><img src = "./icons/search-button-svgrepo-com.svg"/></button>
       <input type="text" v-model="searchQuery" @input="handleInput" class="input-search" placeholder="Search...">
     </div>
