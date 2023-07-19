@@ -1,4 +1,5 @@
 # CS Courses
+Vue app with search and routing on some computer science courses.
 Assuming you have node.js installed :
 1. Open terminal and navigate to "epignosis-courses"
 2. type: npm install
