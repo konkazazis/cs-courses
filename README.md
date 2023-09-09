@@ -2,7 +2,7 @@
 
 CS-Courses
 
-An application used to monitor worldwide covid-19 stats with charts and info. I have implemented it in the form of a Dashboard and added a news section and a weather section.
+Vue front-end application using courses in json format and searching through them.
 
 ## Project Screen Shot(s)
 
