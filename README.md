@@ -1,6 +1,28 @@
-# CS Courses
-Vue app with search and routing on some computer science courses.
-Assuming you have node.js installed :
-1. Open terminal and navigate to "cs-courses"
-2. type: npm install
-3. type: npm run dev (to run the project)
+## Project Name 
+
+CS-Courses
+
+An application used to monitor worldwide covid-19 stats with charts and info. I have implemented it in the form of a Dashboard and added a news section and a weather section.
+
+## Project Screen Shot(s)
+
+![vue-screen](https://github.com/konkazazis/cs-courses/assets/52115101/c4a8bb06-c13d-4505-9452-a9647cac2d49)
+
+## Installation and Setup Instructions
+
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
+
+Installation:
+
+`npm install`  
+
+To Start Server:
+
+`npm run dev`  
+
+## Tools
+
+  - Vue.js
+  - Tailwind
+
+
